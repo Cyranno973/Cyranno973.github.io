@@ -1,0 +1,20 @@
+$color-automatique : #ffc000;
+$color-manuelle : #5b9bd5;
+.manuelle{
+    background-color: $color-manuelle ;
+}
+.automatique{
+    background-color: $color-automatique ;
+}
+table{
+    text-align: center;
+    td {
+        border: 1px solid #333;
+    }
+}
+.vide{
+    color: #fff;
+}
+.gris{
+    background-color: #f2f2f2;
+}
