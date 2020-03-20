@@ -12,7 +12,7 @@ const routes: Routes = [
      { path: 'leg1', component: PlandevolComponent }
      { path: 'leg2', component: PlandevolComponent }
      { path: 'tdp', component: PlandevolComponent }
-     { path: 'ad', component: PlandevolComponent }
+     { path: 'ad', component: devolComponent }
 ];
 
 @NgModule({
