@@ -1,17 +1,8 @@
 
-#mass{
-  text-align: center;
-  border: solid 1px blue;
-}
-td{
-  border: solid 1px blue;
-
-}
 #txt-dir{
   // probleme sur chrome mais fonctionne sur firefox
   // writing-mode: vertical-lr;
   // text-orientation: sideways;
   transform: rotate(-90deg);
   border: none;
-
 }
