@@ -2,22 +2,27 @@
 body{
     margin: 0;
     padding: 0;
+    margin: auto;
     }
-    app-mass,app-leg1,app-leg2{
+    app-plandevol,app-mass,app-leg1,app-leg2{
       display: flex;
       justify-content: center;
       flex-direction: column;
-    }
-    #container-table{
+      width: 970px;
       margin: auto;
 
     }
+    #container-table{
+      margin: auto;
+      width: 80%;
+    }
     table{
+      width: 100%;
       border: solid 1px blue;
       text-align: center;
-     // td{
-     //  border-bottom: solid 1px blue;
-     // }
+      td{
+       border: solid 1px blue;
+      }
     }
 // #text-diagonal,#text-diagonal2{
 //   transform: rotate(-30deg);
@@ -28,4 +33,7 @@ body{
 }
 .container-table-flex{
   display: flex;
+}
+#container-table-1,#container-table-2{
+  width: 50%;
 }
