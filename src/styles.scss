@@ -10,12 +10,14 @@ body{
     }
     #container-table{
       margin: auto;
+
     }
     table{
+      border: solid 1px blue;
       text-align: center;
-      td{
-        border: solid 1px blue;
-      }
+     // td{
+     //  border-bottom: solid 1px blue;
+     // }
     }
 // #text-diagonal,#text-diagonal2{
 //   transform: rotate(-30deg);
