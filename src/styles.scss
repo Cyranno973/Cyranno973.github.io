@@ -3,4 +3,27 @@ body{
     margin: 0;
     padding: 0;
     }
-
+    app-mass,app-leg1,app-leg2{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    #container-table{
+      margin: auto;
+    }
+    table{
+      text-align: center;
+      td{
+        border: solid 1px blue;
+      }
+    }
+// #text-diagonal,#text-diagonal2{
+//   transform: rotate(-30deg);
+//   border: none;
+// }
+#flex{
+  display: flex;
+}
+.container-table-flex{
+  display: flex;
+}
